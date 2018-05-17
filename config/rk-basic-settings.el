@@ -322,6 +322,16 @@ Optional arg JUSTIFY will justify comments and strings."
 (add-to-list 'auto-mode-alist '("\\.kll\\'" . conf-mode))
 
 ;;; TODO: Move this into it's own package
+
+
+(use-package eyebrowse
+  :straight t
+  :config
+  (eyebrowse-mode t))
+
+(use-package rainbow-delimiters
+  :straight t
+  :hook (prog-mode . rainbow-delimiters-mode))
 (use-package all-the-icons
   :defer t
   :straight t)

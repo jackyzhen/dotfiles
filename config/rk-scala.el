@@ -36,6 +36,7 @@
     (setq scala-indent:indent-value-expression t)))
 
 (use-package sbt-mode
+  :straight t
   :commands (sbt-start sbt-command)
   :defines (sbt:buffer-project-root)
   :preface
