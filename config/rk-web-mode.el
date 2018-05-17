@@ -30,7 +30,8 @@
   "The version of Node to use by default if .nvmrc isn't found.")
 
 (defconst rk-web--prettier-default-args
-  (list "--single-quote" "true" "--trailing-comma" "es5")
+  (list)
+  ;;(list "--single-quote" "true" "--trailing-comma" "es5")
   "Default values for prettier.")
 
 (defvar rk-web--flow-lsp-buffer-cache (ht-create)
