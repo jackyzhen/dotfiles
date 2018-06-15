@@ -25,7 +25,8 @@
     php-mode
     rnc-mode
     rust-mode
-    scala-mode)
+    scala-mode
+    coffee-mode)
   "List of modes to be excluded from aggressive indent.")
 
 (use-package aggressive-indent
