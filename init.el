@@ -80,9 +80,7 @@
 
 ;; Aggressively load themes
 
-(use-package rk-themes
-  :config
-  (rk/themes/light-theme))
+(use-package rk-themes)
 
 ;; Load features.
 
