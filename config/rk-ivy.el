@@ -160,7 +160,7 @@
     (general-def ivy-minibuffer-map "C-h" #'counsel-up-directory)
 
     (setq counsel-git-cmd "rg --files")
-    (setq counsel-rg-base-command "rg -i -g '!.git/*' --no-heading --line-number --hidden --max-columns 120 --color never %s .")
+    (setq counsel-rg-base-command "rg -i -g '!.git/*' --glob \!.po/ --glob \!node-scripts/ --glob \!flow-typed/ --glob \!coverage/ --glob \!vendors/ --glob \!vendor/ --no-heading --line-number --hidden --max-columns 120 --color never %s .")
     (setq counsel-yank-pop-separator (concat "\n" (make-string 70 ?-) "\n"))
 
     (counsel-mode +1)))
