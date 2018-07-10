@@ -179,7 +179,8 @@
   (progn
     (setq-default evil-escape-key-sequence "jk")
     (dolist (maj-mode (list 'magit-process-mode 'magit-log-mode 'magit-cherry-mode 'magit-mode 'magit-refs-mode 'magit-status-mode 'magit-diff-mode))
-      (add-to-list 'evil-escape-excluded-major-modes maj-mode))))
+      (add-to-list 'evil-escape-excluded-major-modes maj-mode))
+    (evil-escape-mode)))
 
 (use-package evil-indent-plus
   :straight t
