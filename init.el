@@ -56,8 +56,8 @@
 
 ;; Set up personal settings
 
-(setq user-full-name "Raghuvir Kasturi")
-(setq user-mail-address "raghuvir.kasturi@gmail.com")
+(setq user-full-name "Jacky Zhen")
+(setq user-mail-address "jacky.s.zhen@gmail.com")
 
 (defconst use-package-verbose t)
 
