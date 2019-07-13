@@ -20,7 +20,8 @@
 
 (use-package rg
   :straight t
-  :commands rg)
+  :commands rg
+  :init (rg-enable-default-bindings))
 
 (use-package wgrep
   :straight t
