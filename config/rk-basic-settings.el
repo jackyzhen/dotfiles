@@ -332,6 +332,7 @@ Optional arg JUSTIFY will justify comments and strings."
 (use-package rainbow-delimiters
   :straight t
   :hook (prog-mode . rainbow-delimiters-mode))
+
 (use-package all-the-icons
   :defer t
   :straight t)

@@ -13,6 +13,7 @@
 
 (require 'general)
 (require 'definers)
+(require 'rk-theme-base)
 
 (use-package evil
   :straight t
