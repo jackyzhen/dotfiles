@@ -26,7 +26,8 @@
     rnc-mode
     rust-mode
     scala-mode
-    coffee-mode)
+    coffee-mode
+    rk-web-html-mode)
   "List of modes to be excluded from aggressive indent.")
 
 (use-package aggressive-indent

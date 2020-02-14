@@ -102,7 +102,7 @@
 (use-package rk-projectile)
 (use-package rk-magit)
 (use-package rk-parentheses)
-(use-package rk-smartparens)
+; (use-package rk-smartparens)
 (use-package rk-company)
 (use-package rk-restclient)
 (use-package rk-dired)
